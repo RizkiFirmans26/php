@@ -1,0 +1,153 @@
+@font-face {
+  font-family: papi;
+  src: url(images/papyrus.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 10px 0;
+  color: rgb(0, 0, 0);
+  transition: all ease 0.5s;
+}
+
+.navbar.sticky {
+  background-color: rgba(181, 181, 213, 0.744);
+  padding: 5px 0;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  font-family: papi;
+
+}
+
+.navbar .logo img {
+  width: 100px;
+}
+
+.navbar .logo h4 {
+  font-size: 36px;
+  margin-left: 15px;
+}
+
+.navbar .menu ul {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .menu ul li {
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar .menu ul li a {
+  text-decoration: none;
+}
+
+.navbar .menu ul li:hover {
+  background-color: blue;
+  transition-duration: 1s;
+}
+
+.navbar .menu ul li:hover ul {
+  background-color: rgba(0, 0, 0, 0.499);
+  visibility: visible;
+  transition-duration: 1s;
+}
+
+.navbar .menu ul li ul {
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+.navbar .menu ul li ul li {
+  width: 60%;
+}
+
+.navbar .menu ul li a {
+  color: rgb(0, 0, 0);
+}
+
+.main-content {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.563)), url(images/engsel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Judul {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 20%;
+  font-family: papi;
+  text-shadow: 0 0 10px white;
+}
+
+.about {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 20%;
+}
+
+.main-content2 {
+  width: 100%;
+  height: 100vh;
+  background: url(images/t6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.min {
+  margin-top: 30px;
+}
+
+.kanann {
+  font-size: 45px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.Y {
+  font-size: 45px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+.gambardes {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.min {
+  display: flex;
+  margin: 0 100px;
+}
+
+.kanann>.teksisi {
+  font-size: 15px;
+  text-align: center;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 230px;
+}
